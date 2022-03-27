@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'steps',
+    loadChildren: () => import('./question-step/question-step.module').then( m => m.QuestionStepPageModule)
+  },
 ];
 
 @NgModule({

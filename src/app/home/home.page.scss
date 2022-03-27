@@ -1,27 +1,61 @@
-#container {
-  text-align: center;
-
+.mainbg{
+  width: 105%;
+  height: 105%;
+  background-image: url(../../assets/backgroundVideo/bg.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  overflow-y: hidden !important;
+}
+.buttons{
+  width: 80%;
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  bottom: 15%;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+// sign in
+
+.buttonlove {
+  font-family: inherit;
+  background: #c73434;
+  color: white;
+  padding: 0.35em 0;
+  font-size: 12px;
+  border: none;
+  border-radius: 0.7em;
+  letter-spacing: 0.08em;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 2.5em;
+  padding-left: 2.8em;
+  padding-right: 0.7em;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ 
+.buttonlove .iconlove {
+  background: #fff;
+  margin-right: 1em;
+  height: 2.2em;
+  width: calc(100% - 0.3rem);
+  border-radius: 0.5em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0.2em;
+  transition: all 0.5s;
 }
-
-#container a {
-  text-decoration: none;
+ 
+.buttonlove img {
+  margin-left: 0.1em;
+  transition: all 0.5s;
+  color: #5297F4;
+  width: 1.5rem;
+  height: 1.5rem;
 }
