@@ -1,0 +1,27 @@
+.mainbg{
+    width: 105%;
+    height: 105%;
+    background-image: url(../../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    overflow-y: hidden !important;
+  }
+
+.formContent{
+    margin-top: 2em;
+}
+
+.title{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.cardContent {
+    position: absolute;
+    bottom: 3em;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
