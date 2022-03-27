@@ -15,6 +15,11 @@ const routes: Routes = [
     path: 'steps',
     loadChildren: () => import('./question-step/question-step.module').then( m => m.QuestionStepPageModule)
   },
+  {
+    path: 'music',
+    loadChildren: () => import('./music/music.module').then( m => m.MusicPageModule)
+  },
+
 ];
 
 @NgModule({
