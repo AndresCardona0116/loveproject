@@ -1,0 +1,15 @@
+<div class="main">
+  <div class="content">
+    <div class="tittle">
+      hola
+    </div>
+    <div *ngFor="let music of listMusic" class="card mb-3 cardMusic box">
+      <div class="card-body">
+        <iframe width="100%" [src]="music.trustedVideoUrl" title="music.name" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="card-text">
+            {{music.name}}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
